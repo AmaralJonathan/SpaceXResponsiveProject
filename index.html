@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link  href="script.js">
+   
     <title>Document</title>
 </head>
 <body>
@@ -59,7 +61,9 @@
     <div class="item"><img src="./Falcon Heavy/1418db04ca7dcc74b160c821b051ce73.jpg" alt=""><p class="Falcon">Falcon Heavy</p></div>
     <div class="item"><img src="./StarShip/starshipa.jpg" alt=""><p class="Starship">Starshhip</p></div>
  
-    <div class="footer"></div>
+    <div class="footer">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/x-KiDqxAMU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 </section>
 
 
@@ -136,12 +140,25 @@
 
 <div class="PopUpthree" id="PopUpThree">
     <div class="InterPopUp3">
-        <div class="img-top-pop3"><img src="./img Dragon/dc26878b327a3d5ab2020bf2c762c189.jpg" alt=""> </div>
+        <div class="img-top-pop3"><img src="./Falcon Heavy/Falcon h2.jpg" alt=""> </div>
         
         <div class="TotalLauches">
             <div class="textos">
-            <h1>27</h1>
+            <h1>3</h1>
             <p>TOTAL LAUCHES</p>
+            </div>
+        </div>
+        <div class="TotalLauches">
+            <div class="textos">
+            <h1>7</h1>
+            <p>TOTAL LANDINGS</p>
+            </div>
+        </div>
+
+        <div class="TotalLauches">
+            <div class="textos">
+            <h1>4</h1>
+            <p>REFLOWN ROCKETS</p>
             </div>
         </div>
 
@@ -165,20 +182,44 @@
 
 <div class="PopUpfour" id="PopUpFour">
     <div class="InterPopUp4">
-        <div class="img-top-pop3"><img src="./img Dragon/dc26878b327a3d5ab2020bf2c762c189.jpg" alt=""> </div>
+        <div class="img-top-pop3"><img src="./StarShip/5334cd93562c20db6967da065ca89dd1.jpg" alt=""> </div>
+       
         
-        <div class="TotalLauches">
+        <div class="infos-starship">
             <div class="textos">
-            <h1>27</h1>
-            <p>TOTAL LAUCHES</p>
+                <h2>PAYLOAD CAPACITY</h2>
+                <p>100+t / 220+ / Klb</p>
             </div>
         </div>
 
-       
+        
+        <div class="infos-starship">
+            <div class="textos">
+                <h2>PROPELLANT CAPACITY</h2>
+                <p>1200T / 2.6Mlb</p>
+            </div>
+        </div>
+     
+      <div class="infos-menor">
+        <div class="infos-starship">
+            <div class="textos">
+                <h2>DIAMETER</h2>
+                <p>9m / 30ft</p>
+            </div>
+        </div>
+        <div class="infos-starship">
+            <div class="textos">
+                <h2>HEIGHT</h2>
+                <p>50m / 160ft</p>
+            </div>
+        </div>
+    
+    </div>
        
       <div class="button4"> <button><p>RETURN</p></button></div>
        
     </div>
+    
    
 
 </div>
@@ -196,107 +237,5 @@
 
 </body>
 
-<script>
-
-const Crew1 = document.querySelector('.crew11')
-Crew1.addEventListener('click', () => PopUp1('PopUpOne'))
-
- function PopUp1(PopUpOne){
- const abrir = document.querySelector('.PopUpone')
- abrir.classList.add('mudar')
-
-
-
- }
-
- 
- 
- const Crew11 = document.querySelector('.button1')
- Crew11.addEventListener('click', () =>PopUp11 ('PopUpOne'))
- 
- function PopUp11(PopUpOne){
-     const fechar = document.querySelector('.PopUpone')
-     fechar.classList.remove('mudar')
- }
-
-
-/* 2º Pop Up */
-
-
-const Dragon = document.querySelector('.dragon')
-Dragon.addEventListener('click', () => PopUp2('PopUpTwo'))
-
- function PopUp2(PopUpTwo){
- const abrir1 = document.querySelector('.PopUptwo')
- abrir1.classList.add('mudar')
-
- }
- 
-
-
-
- 
- const Dragon11 = document.querySelector('.button2')
- Dragon11.addEventListener('click', () =>PopUp22 ('PopUpTwo'))
- 
- function PopUp22(PopUpTwo){
-     const fechar2 = document.querySelector('.PopUptwo')
-     fechar2.classList.remove('mudar')
- }
- 
- 
-
-/*3º Pop Up*/
-
-
-
-const Falcon = document.querySelector('.Falcon')
-Falcon.addEventListener('click', () => PopUp3('PopUpThree'))
-
- function PopUp3(PopUpThree){
- const abrir2 = document.querySelector('.PopUpthree')
- abrir2.classList.add('mudar')
-
- }
- 
-
-
-
- 
- const Falcon1 = document.querySelector('.button3')
- Falcon1.addEventListener('click', () =>PopUp33 ('PopUpThree'))
- 
- function PopUp33(PopUpThree){
-     const fechar3 = document.querySelector('.PopUpthree')
-     fechar3.classList.remove('mudar')
- }
-
-
-
- /*4º Pop Up*/
-
-
-
-const Starship = document.querySelector('.Starship')
-Starship.addEventListener('click', () => PopUp4('PopUpFour'))
-
- function PopUp4(PopUpFour){
- const abrir4 = document.querySelector('.PopUpfour')
- abrir4.classList.add('mudar')
-
- }
- 
- const Starship1 = document.querySelector('.button4')
- Starship1.addEventListener('click', () =>PopUp44 ('PopUpFour'))
- 
- function PopUp44(PopUpFour){
-     const fechar4 = document.querySelector('.PopUpfour')
-     fechar4.classList.remove('mudar')
- }
-
-
- 
-
-
-</script>
+<script type="text/javascript" src="script.js"></script>
 </html>

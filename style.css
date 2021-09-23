@@ -222,6 +222,8 @@ img{
     color: rgb(195, 195, 196) ;
     cursor: pointer;
 }
+
+
 .crew11:hover{
     color: rgb(134, 134, 134);
     border-color: rgb(134, 134, 134);
@@ -256,14 +258,44 @@ img{
 
 
 
+.Falcon{
+    border-bottom: solid 2px rgb(195, 195, 196);
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 20px;
+    font-family:Arial;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: rgb(195, 195, 196);
+    cursor: pointer;
+}
+.Falcon:hover{
+    color: rgb(134, 134, 134);
+    border-color: rgb(134, 134, 134);
+}
 
 
 
 
 
 
-
-
+.Starship{
+    border-bottom: solid 2px rgb(195, 195, 196);
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 20px;
+    font-family:Arial;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: rgb(195, 195, 196);
+    cursor: pointer;
+}
+.Starship:hover{
+    color: rgb(134, 134, 134);
+    border-color: rgb(134, 134, 134);
+}
 
 
 
@@ -616,13 +648,25 @@ button{
 .InterPopUp3{
     min-width: 400px;
     max-width: 300px;
-    height: 550px;
+    height: 580px;
     border: rgb(1, 21, 58) solid 4px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.918);
     
 }
+.button3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
 
+.button3 p{
+    width: 200px;
+    
+}
 
 /* PopUp4*/
 .PopUpfour{
@@ -650,4 +694,56 @@ button{
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.918);
     
+}
+
+.infos-menor{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.infos-menor p{
+   width: 100px;
+}
+
+.infos-starship{
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-top: 20px;
+
+}
+.infos-starship h2{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    
+
+}
+.infos-starship p{
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+    text-align: center;
+}
+
+.button4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+
+.button4 p{
+    width: 200px;
+    
+}
+.button4:hover{
+    color: rgb(151, 150, 150);
 }
